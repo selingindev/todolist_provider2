@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
               surface: const Color.fromARGB(255, 29, 28, 28)),
           useMaterial3: true,
         ),
-        home: const TodosScreens(title: 'Lista de Tarefas - Arthur Selingin'),
+        home: const TodosScreens(title: 'Lista de Tarefas - Arthur e Gabriel'),
         localizationsDelegates: const [GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate],
         supportedLocales: const [Locale('pt', 'BR')],
       ),
